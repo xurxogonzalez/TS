@@ -1,0 +1,19 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "TypeScript Prueba",
+  "scripts": {
+    "tsc" : "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xurxogonzalez/TS.git"
+  },
+  "author": "Xurxo González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xurxogonzalez/TS/issues"
+  },
+  "homepage": "https://github.com/xurxogonzalez/TS#readme"
+}

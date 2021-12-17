@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="module" src="./entry.js"></script>
+</head>
+<body class="container">
+    <form action="#" id="myForm">
+        <h1 class="form__title title">
+            Persona
+        </h1>
+        <ul class="fields" role="list">
+            <li class="field">
+                <label for="nombre">Nombre</label>
+                <input placeholder="Pepe" type="text" name="nombre" id="nombre" aria-describedby="field__nombre">
+            </li>
+            <li class="field">
+                <label for="primer-apellido">Primer apellido</label>
+                <input placeholder="Gutiérrez" type="text" name="primer-apellido" id="primer-apellido" aria-describedby="field__primer-apellido">
+            </li>
+            <li class="field">
+                <label for="segundo-apellido">Segundo apellido</label>
+                <input placeholder="Gutiérrez" type="text" name="segundo-apellido" id="segundo-apellido" aria-describedby="field__segundo-apellido">
+            </li>
+            <li class="field">
+                <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                <input value="1973-04-06" type="date" name="fecha-nacimiento" id="fecha-nacimiento" aria-describedby="field__fecha-nacimiento">
+            </li>
+            <li class="field">
+                <fieldset>
+                    <legend>Género</legend>
+                    <div>
+                        <label for="masculino">Masculino</label>
+                        <input value="M" type="radio" name="genero" id="masculino" checked>
+                    </div>
+                    <div>
+                        <label for="femenino">Femenino</label>
+                        <input value="F" type="radio" name="genero" id="femenino">
+                    </div>
+                </fieldset>
+            </li>
+        </ul>
+        <button class="btn">Vamos</button>
+    </form>
+</body>
+</html>
